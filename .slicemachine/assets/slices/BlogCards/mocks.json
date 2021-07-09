@@ -7,25 +7,19 @@
       {
         "blogPost": {
           "link_type": "Web",
-          "url": "https://prismic.io"
+          "url": "http://twitter.com"
         }
       },
       {
         "blogPost": {
           "link_type": "Web",
-          "url": "https://slicemachine.dev"
+          "url": "http://google.com"
         }
       },
       {
         "blogPost": {
           "link_type": "Web",
-          "url": "https://slicemachine.dev"
-        }
-      },
-      {
-        "blogPost": {
-          "link_type": "Web",
-          "url": "https://prismic.io"
+          "url": "http://google.com"
         }
       },
       {
@@ -36,7 +30,7 @@
       }
     ],
     "primary": {
-      "heading": "evolve rich web services"
+      "heading": "redefine ubiquitous e-services"
     }
   }
 ]

@@ -28,7 +28,7 @@
             "contact_form": {
               "type": "SharedSlice"
             },
-            "navigation_bar": {
+            "testimonial_section": {
               "type": "SharedSlice"
             }
           }

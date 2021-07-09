@@ -1,0 +1,72 @@
+{
+  "id": "testimonial_section",
+  "type": "SharedSlice",
+  "name": "TestimonialSection",
+  "description": "TestimonialSection",
+  "variations": [
+    {
+      "id": "default-slice",
+      "name": "Default slice",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TestimonialSection",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "quote": {
+          "config": {
+            "label": "Pull Quote",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "attributionName": {
+          "config": {
+            "label": "Attribution Name",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    },
+    {
+      "id": "imageOnRight",
+      "name": "Image on Right",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "TestimonialSection",
+      "primary": {
+        "image": {
+          "config": {
+            "label": "Image",
+            "constraint": {},
+            "thumbnails": []
+          },
+          "type": "Image"
+        },
+        "quote": {
+          "config": {
+            "label": "Pull Quote",
+            "placeholder": ""
+          },
+          "type": "Text"
+        },
+        "attributionName": {
+          "config": {
+            "label": "Attribution Name",
+            "placeholder": ""
+          },
+          "type": "Text"
+        }
+      },
+      "items": {}
+    }
+  ]
+}

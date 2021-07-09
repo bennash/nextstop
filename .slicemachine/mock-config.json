@@ -8,6 +8,11 @@
     "HeroSection": {},
     "BlogCards": {},
     "ContentGrid": {},
-    "ContactForm": {}
+    "ContactForm": {},
+    "TestimonialSection": {
+      "default-slice": {
+        "primary": {}
+      }
+    }
   }
 }
