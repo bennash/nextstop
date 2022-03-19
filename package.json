@@ -1,5 +1,5 @@
 {
-  "name": "some-antics",
+  "name": "nextstop",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -35,7 +35,7 @@
     "eslint": "7.30.0",
     "eslint-config-next": "11.0.1",
     "postcss": "^7",
-    "slice-machine-ui": "0.1.0-alpha.13",
+    "slice-machine-ui": "^0.3.3",
     "tailwindcss": "npm:@tailwindcss/postcss7-compat"
   }
 }

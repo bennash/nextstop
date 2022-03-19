@@ -1,0 +1,588 @@
+{
+  "slices": {
+    "components": {
+      "blog_cards": {
+        "library": "slices",
+        "id": "blog_cards",
+        "name": "BlogCards",
+        "description": "BlogCards",
+        "model": {
+          "id": "blog_cards",
+          "type": "SharedSlice",
+          "name": "BlogCards",
+          "description": "BlogCards",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "BlogCards",
+              "primary": {
+                "heading": {
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {
+                "blogPost": {
+                  "config": {
+                    "label": "Blog Post",
+                    "select": "document",
+                    "customtypes": [
+                      "blog"
+                    ]
+                  },
+                  "type": "Link"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "blog_cards",
+            "items": [
+              {
+                "blogPost": {
+                  "link_type": "Web",
+                  "url": "http://twitter.com"
+                }
+              },
+              {
+                "blogPost": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "blogPost": {
+                  "link_type": "Web",
+                  "url": "http://google.com"
+                }
+              },
+              {
+                "blogPost": {
+                  "link_type": "Web",
+                  "url": "https://prismic.io"
+                }
+              }
+            ],
+            "primary": {
+              "heading": "redefine ubiquitous e-services"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/bennash/M1 Google Drive Sync/2022 Synced Projects/2022 Personal Projects/NextStop/nextstop/.slicemachine/assets/slices/BlogCards/default-slice/preview.png",
+            "width": 1200,
+            "height": 248
+          }
+        }
+      },
+      "contact_form": {
+        "library": "slices",
+        "id": "contact_form",
+        "name": "ContactForm",
+        "description": "ContactForm",
+        "model": {
+          "id": "contact_form",
+          "type": "SharedSlice",
+          "name": "ContactForm",
+          "description": "ContactForm",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ContactForm",
+              "primary": {
+                "heading": {
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "description": {
+                  "config": {
+                    "label": "Description",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "buttonText": {
+                  "config": {
+                    "label": "Button Text",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "contact_form",
+            "items": [],
+            "primary": {
+              "heading": "redefine wireless relationships",
+              "description": "redefine rich supply-chains",
+              "buttonText": "morph revolutionary schemas"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/bennash/M1 Google Drive Sync/2022 Synced Projects/2022 Personal Projects/NextStop/nextstop/.slicemachine/assets/slices/ContactForm/default-slice/preview.png",
+            "width": 1200,
+            "height": 639
+          }
+        }
+      },
+      "content_grid": {
+        "library": "slices",
+        "id": "content_grid",
+        "name": "ContentGrid",
+        "description": "ContentGrid",
+        "model": {
+          "id": "content_grid",
+          "type": "SharedSlice",
+          "name": "ContentGrid",
+          "description": "ContentGrid",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "ContentGrid",
+              "primary": {
+                "heading": {
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 1200,
+                      "height": 500
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "heading": {
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "description": {
+                  "config": {
+                    "label": "Description",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "buttonText": {
+                  "config": {
+                    "label": "Button Text",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              }
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "content_grid",
+            "items": [
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 1200,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1587613865763-4b8b0d19e8ab?w=1200&h=500&fit=crop"
+                },
+                "heading": "utilize next-generation convergence",
+                "description": "syndicate B2C web-readiness",
+                "buttonText": "harness next-generation convergence"
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 1200,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1571126770897-2d612d1f7b89?w=1200&h=500&fit=crop"
+                },
+                "heading": "engage dynamic infrastructures",
+                "description": "synthesize magnetic e-commerce",
+                "buttonText": "iterate plug-and-play synergies"
+              },
+              {
+                "image": {
+                  "dimensions": {
+                    "width": 1200,
+                    "height": 500
+                  },
+                  "alt": "Placeholder image",
+                  "copyright": null,
+                  "url": "https://images.unsplash.com/photo-1531771686035-25f47595c87a?w=1200&h=500&fit=crop"
+                },
+                "heading": "orchestrate bleeding-edge vortals",
+                "description": "mesh viral blockchains",
+                "buttonText": "evolve strategic experiences"
+              }
+            ],
+            "primary": {
+              "heading": "redefine robust infrastructures"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/bennash/M1 Google Drive Sync/2022 Synced Projects/2022 Personal Projects/NextStop/nextstop/.slicemachine/assets/slices/ContentGrid/default-slice/preview.png",
+            "width": 1200,
+            "height": 1041
+          }
+        }
+      },
+      "hero_section": {
+        "library": "slices",
+        "id": "hero_section",
+        "name": "HeroSection",
+        "description": "HeroSection",
+        "model": {
+          "id": "hero_section",
+          "type": "SharedSlice",
+          "name": "HeroSection",
+          "description": "HeroSection",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HeroSection",
+              "primary": {
+                "heading": {
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "body": {
+                  "config": {
+                    "label": "Body",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 720,
+                      "height": 900
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "buttonText": {
+                  "config": {
+                    "label": "Button Text",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "imageLeft",
+              "name": "Image Left",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "HeroSection",
+              "primary": {
+                "heading": {
+                  "config": {
+                    "label": "Heading",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "body": {
+                  "config": {
+                    "label": "Body",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {
+                      "width": 720,
+                      "height": 900
+                    },
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "buttonText": {
+                  "config": {
+                    "label": "Button Text",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "hero_section",
+            "items": [],
+            "primary": {
+              "heading": "leverage clicks-and-mortar convergence",
+              "body": "transition rich applications",
+              "image": {
+                "dimensions": {
+                  "width": 720,
+                  "height": 900
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=720&h=900&fit=crop"
+              },
+              "buttonText": "deploy extensible ROI"
+            }
+          },
+          "imageLeft": {
+            "variation": "imageLeft",
+            "name": "Image Left",
+            "slice_type": "hero_section",
+            "items": [],
+            "primary": {
+              "heading": "unleash virtual e-services",
+              "body": "synergize user-centric e-tailers",
+              "image": {
+                "dimensions": {
+                  "width": 720,
+                  "height": 900
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1504198070170-4ca53bb1c1fa?w=720&h=900&fit=crop"
+              },
+              "buttonText": "productize distributed e-business"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/bennash/M1 Google Drive Sync/2022 Synced Projects/2022 Personal Projects/NextStop/nextstop/.slicemachine/assets/slices/HeroSection/default-slice/preview.png",
+            "width": 1200,
+            "height": 740
+          },
+          "imageLeft": {
+            "path": "/Users/bennash/M1 Google Drive Sync/2022 Synced Projects/2022 Personal Projects/NextStop/nextstop/.slicemachine/assets/slices/HeroSection/imageLeft/preview.png",
+            "width": 1200,
+            "height": 740
+          }
+        }
+      },
+      "testimonial_section": {
+        "library": "slices",
+        "id": "testimonial_section",
+        "name": "TestimonialSection",
+        "description": "TestimonialSection",
+        "model": {
+          "id": "testimonial_section",
+          "type": "SharedSlice",
+          "name": "TestimonialSection",
+          "description": "TestimonialSection",
+          "variations": [
+            {
+              "id": "default-slice",
+              "name": "Default slice",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TestimonialSection",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "quote": {
+                  "config": {
+                    "label": "Pull Quote",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "attributionName": {
+                  "config": {
+                    "label": "Attribution Name",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            },
+            {
+              "id": "imageOnRight",
+              "name": "Image on Right",
+              "docURL": "...",
+              "version": "sktwi1xtmkfgx8626",
+              "description": "TestimonialSection",
+              "primary": {
+                "image": {
+                  "config": {
+                    "label": "Image",
+                    "constraint": {},
+                    "thumbnails": []
+                  },
+                  "type": "Image"
+                },
+                "quote": {
+                  "config": {
+                    "label": "Pull Quote",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                },
+                "attributionName": {
+                  "config": {
+                    "label": "Attribution Name",
+                    "placeholder": ""
+                  },
+                  "type": "Text"
+                }
+              },
+              "items": {}
+            }
+          ]
+        },
+        "mocks": {
+          "default-slice": {
+            "variation": "default-slice",
+            "name": "Default slice",
+            "slice_type": "testimonial_section",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1525547719571-a2d4ac8945e2?w=900&h=500&fit=crop"
+              },
+              "quote": "aggregate leading-edge e-markets",
+              "attributionName": "deploy next-generation methodologies"
+            }
+          },
+          "imageOnRight": {
+            "variation": "imageOnRight",
+            "name": "Image on Right",
+            "slice_type": "testimonial_section",
+            "items": [],
+            "primary": {
+              "image": {
+                "dimensions": {
+                  "width": 900,
+                  "height": 500
+                },
+                "alt": "Placeholder image",
+                "copyright": null,
+                "url": "https://images.unsplash.com/photo-1537498425277-c283d32ef9db?w=900&h=500&fit=crop"
+              },
+              "quote": "synergize out-of-the-box convergence",
+              "attributionName": "matrix strategic content"
+            }
+          }
+        },
+        "meta": {
+          "fileName": "index",
+          "isDirectory": true,
+          "extension": "js"
+        },
+        "screenshotPaths": {
+          "default-slice": {
+            "path": "/Users/bennash/M1 Google Drive Sync/2022 Synced Projects/2022 Personal Projects/NextStop/nextstop/.slicemachine/assets/slices/TestimonialSection/default-slice/preview.png",
+            "width": 1200,
+            "height": 333
+          },
+          "imageOnRight": {
+            "path": "/Users/bennash/M1 Google Drive Sync/2022 Synced Projects/2022 Personal Projects/NextStop/nextstop/.slicemachine/assets/slices/TestimonialSection/imageOnRight/preview.png",
+            "width": 1200,
+            "height": 333
+          }
+        }
+      }
+    }
+  }
+}
